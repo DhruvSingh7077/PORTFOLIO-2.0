@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { Tooltip } from "react-tooltip";
 import { dockApps } from "#constants";
 import { useGSAP } from "@gsap/react";
-import { useWindowStore } from "#store/window";
+import useWindowStore from "#store/window";
 const Dock = () => {
   const { openWindow, closeWindow, focusWindow } = useWindowStore();
   const dockRef = useRef(null);
