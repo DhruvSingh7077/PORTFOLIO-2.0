@@ -3,11 +3,12 @@ import React from "react";
 import { Check } from "lucide-react";
 import { techStack } from "#constants";
 import { Flag } from "lucide-react";
+import { WindowControls } from "#components";
 const Terminal = () => {
   return (
     <>
       <div id="window-header">
-        <p>Window controls</p>
+        <WindowControls target="terminal" />
         <h2>techs tacj</h2>
       </div>
 
