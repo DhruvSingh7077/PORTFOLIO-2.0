@@ -1,3 +1,4 @@
 import Terminal from "./Terminal.jsx";
 import Safari from "./Safari.jsx";
-export { Terminal, Safari };
+import Resume from "./Resume.jsx";
+export { Terminal, Safari, Resume };
