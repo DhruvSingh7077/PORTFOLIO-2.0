@@ -40,6 +40,16 @@ const Finder = () => {
           {renderList("Work", locations?.work?.children ?? [])}
         </div>
       </div>
+
+      <ul className="content">
+        {activeLocation?.children.map((item) => (
+          <li
+            key={item.id}
+            className={item.position}
+            onClick={() => openItem(item)}
+          ></li>
+        ))}
+      </ul>
     </>
   );
 };
