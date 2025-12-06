@@ -5,7 +5,7 @@ import { Draggable } from "gsap/Draggable";
 import { Terminal } from "#windows/index.js";
 import { Safari } from "#windows/index.js";
 import { Resume } from "#windows/index.js";
-import { Finder } from "#windows/index.js";
+import { Finder, Text, Image } from "#windows/index.js";
 gsap.registerPlugin(Draggable);
 const App = () => {
   return (
@@ -18,6 +18,8 @@ const App = () => {
       <Resume />
       <Safari />
       <Finder />
+      <Text />
+      <Image />
     </main>
   );
 };
