@@ -14,7 +14,7 @@ const App = () => {
       <Welcome />
       <Dock />
 
-      <Terminal />
+      <Terminal /> 
       <Resume />
       <Safari />
       <Finder />
