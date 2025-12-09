@@ -14,6 +14,7 @@ import {
 import { blogPosts } from "../constants";
 
 const Safari = () => {
+  console.log("Safari render");
   return (
     <>
       <div id="window-header">
